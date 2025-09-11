@@ -1,0 +1,87 @@
+{
+  "cost_estimat_total_eur": 7250,
+  "potential_general": "Proprietatea are potențial bun pentru închiriere după o renovare completă.  Modernizarea va atrage chiriași și va justifica o chirie mai mare.",
+  "elemente_identificate": [
+    {
+      "element": "Tapet sufragerie",
+      "stare": "Model vechi, demodat",
+      "cost_estimat_element_eur": 300
+    },
+    {
+      "element": "Mocheta sufragerie",
+      "stare": "Uzurată, model vechi",
+      "cost_estimat_element_eur": 400
+    },
+    {
+      "element": "Uși interioare",
+      "stare": "Aspect invechit, probabil necesita inlocuire",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Corpuri de iluminat",
+      "stare": "Depozitate, aspect invechit",
+      "cost_estimat_element_eur": 150
+    },
+    {
+      "element": "Gresie bucatarie",
+      "stare": "Model vechi, aspect murdar",
+      "cost_estimat_element_eur": 350
+    },
+    {
+      "element": "Fereastra bucătărie",
+      "stare": "Veche, probabil necesita inlocuire pentru eficienta termica",
+      "cost_estimat_element_eur": 300
+    },
+    {
+      "element": "Mobilier bucatarie",
+      "stare": "Lipsă sau necesita inlocuire completă",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Parchet dormitor",
+      "stare": "Aspect invechit, necesita reconditionare sau inlocuire",
+      "cost_estimat_element_eur": 450
+    },
+    {
+      "element": "Fereastra dormitor",
+      "stare": "Veche, probabil necesita inlocuire pentru eficienta termica",
+      "cost_estimat_element_eur": 300
+    },
+    {
+      "element": "Balcon - gresie/pardoseală",
+      "stare": "Degradată, necesita reparatii sau inlocuire",
+      "cost_estimat_element_eur": 250
+    },
+    {
+      "element": "Balcon - ferestre",
+      "stare": "Vechi, probabil necesita inlocuire pentru eficienta termica",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Baie - faianță și gresie",
+      "stare": "Model vechi, aspect murdar, necesita inlocuire",
+      "cost_estimat_element_eur": 700
+    },
+    {
+      "element": "Baie - obiecte sanitare",
+      "stare": "Vechi, aspect uzat, necesita inlocuire",
+      "cost_estimat_element_eur": 600
+    },
+    {
+      "element": "Instalație electrică",
+      "stare": "Necesita verificare și probabil modernizare",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Instalație sanitară",
+      "stare": "Necesita verificare și probabil modernizare",
+      "cost_estimat_element_eur": 400
+    },
+    {
+      "element": "Zugraveală/Vopsea -  toate camerele",
+      "stare": "Necesita zugraveală completă",
+      "cost_estimat_element_eur": 550
+    }
+  ],
+  "rezumat_analiza": "Proprietatea necesită o renovare completă pentru a atinge standardele moderne de închiriere. Toate finisajele sunt vechi și uzate. Costul total estimat este de 7250 EUR, incluzând manopera."
+}

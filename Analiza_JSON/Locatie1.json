@@ -1,0 +1,62 @@
+{
+  "cost_estimat_total_eur": 25250,
+  "potential_general": "Proprietatea are potențial, dar necesită renovări majore. Investiția este semnificativă, însă poate fi rentabilă pe termen lung, în funcție de locație și cererea de pe piața de închirieri.",
+  "elemente_identificate": [
+    {
+      "element": "Parchet",
+      "stare": "Vechi, uzat, murdar, posibil deteriorat sub moloz",
+      "cost_estimat_element_eur": 3000
+    },
+    {
+      "element": "Pereți interiori",
+      "stare": "Murdar, vopsea deteriorată, posibil cu igrasie",
+      "cost_estimat_element_eur": 2500
+    },
+    {
+      "element": "Tavan",
+      "stare": "Deteriorat, necesită reparații și zugrăvire",
+      "cost_estimat_element_eur": 1500
+    },
+    {
+      "element": "Ferestre",
+      "stare": "Vechi, posibil neetanșe",
+      "cost_estimat_element_eur": 2000
+    },
+    {
+      "element": "Uși interioare",
+      "stare": "Vechi, posibil deteriorate",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Instalație electrică",
+      "stare": "Vizibilă, probabil veche și neconformă cu standardele actuale",
+      "cost_estimat_element_eur": 3000
+    },
+    {
+      "element": "Instalație sanitară",
+      "stare": "Nu este vizibilă în imagini, dar necesită verificare și probabil înlocuire parțială sau totală",
+      "cost_estimat_element_eur": 3000
+    },
+    {
+      "element": "Calorifere",
+      "stare": "Par a fi vechi, necesită verificare și posibil înlocuire",
+      "cost_estimat_element_eur": 1250
+    },
+    {
+      "element": "Fațadă",
+      "stare": "Degradada, tencuiala căzută, necesită reparații",
+      "cost_estimat_element_eur": 4000
+    },
+    {
+      "element": "Acoperis",
+      "stare": "Nu este vizibil, dar necesită verificare",
+      "cost_estimat_element_eur": 2000
+    },
+    {
+      "element": "Curte interioara",
+      "stare": "Necesită curățenie, amenajare, posibil reparații ale aleilor",
+      "cost_estimat_element_eur": 1000
+    }
+  ],
+  "rezumat_analiza": "Proprietatea necesită renovări complete, incluzând înlocuirea parchetului, zugrăvirea pereților și tavanului, înlocuirea ferestrelor și ușilor, refacerea instalațiilor electrice și sanitare, verificarea și eventual înlocuirea caloriferelor, repararea fațadei, verificarea acoperișului și amenajarea curții interioare. Costul total estimat este de 25250 EURO. Potențialul proprietății este bun, dar investiția este considerabilă."
+}

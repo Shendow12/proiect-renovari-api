@@ -1,0 +1,47 @@
+{
+  "cost_estimat_total_eur": 7250,
+  "potential_general": "Proprietatea are potențial bun, dar necesită renovări semnificative pentru a atinge un standard modern de închiriere.",
+  "elemente_identificate": [
+    {
+      "element": "Parchet camere",
+      "stare": "Aspect vechi, probabil necesita raschetare, lacuire sau înlocuire completă în funcție de starea de sub stratul superficial.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Pereți",
+      "stare": "Vopsea veche, decolorată, necesita gletuire și vopsire în culori neutre.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Ferestre",
+      "stare": "Model vechi, probabil cu pierderi de căldură. Recomandat înlocuire cu termopane.",
+      "cost_estimat_element_eur": 1500
+    },
+    {
+      "element": "Uși interioare",
+      "stare": "Aspect vechi, probabil necesita înlocuire cu uși moderne.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Instalație electrică",
+      "stare": "Necesită verificare completă și probabil modernizare pentru a respecta standardele actuale de siguranță. Se observă fire vizibile.",
+      "cost_estimat_element_eur": 750
+    },
+    {
+      "element": "Baie (prima imagine)",
+      "stare": "Necesită renovare completă: instalații sanitare, gresie, faianță, obiecte sanitare.",
+      "cost_estimat_element_eur": 1500
+    },
+    {
+      "element": "Baie (a doua imagine)",
+      "stare": "Necesită renovare completă: instalații sanitare, gresie, faianță, obiecte sanitare. Aspect foarte vechi.",
+      "cost_estimat_element_eur": 1500
+    },
+    {
+      "element": "Corpuri de iluminat",
+      "stare": "Modele vechi, inestetice. Necesită înlocuire cu corpuri moderne și eficiente energetic.",
+      "cost_estimat_element_eur": 500
+    }
+  ],
+  "rezumat_analiza": "Apartamentul necesită renovări substanțiale în toate încăperile, inclusiv înlocuirea instalațiilor sanitare, electrice, finisaje și obiecte sanitare. Investiția este semnificativă, dar poate crește considerabil valoarea proprietății și atractivitatea pentru chiriași."
+}

@@ -1,0 +1,67 @@
+{
+  "cost_estimat_total_eur": 27750,
+  "potential_general": "Proprietatea are potențial bun, dar necesită renovări substanțiale pentru a atinge un standard modern de închiriere.",
+  "elemente_identificate": [
+    {
+      "element": "Bucătărie - Instalații sanitare și electrice",
+      "stare": "Instalații expuse, neterminate. Necesită finalizare completă conform standardelor moderne.",
+      "cost_estimat_element_eur": 4000
+    },
+    {
+      "element": "Bucătărie - Pereți",
+      "stare": "Tencuială deteriorată, necesită îndepărtare și refacere completă.",
+      "cost_estimat_element_eur": 1500
+    },
+    {
+      "element": "Bucătărie - Pardoseală",
+      "stare": "Necesită înlocuire completă cu o soluție modernă (gresie, parchet).",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Bucătărie - Mobilier",
+      "stare": "Lipsă. Necesită instalare completă.",
+      "cost_estimat_element_eur": 3000
+    },
+    {
+      "element": "Sufragerie - Pardoseală (parchet)",
+      "stare": "Vechi, uzat, cu pete și zone deteriorate. Necesită recondiționare sau înlocuire.",
+      "cost_estimat_element_eur": 2500
+    },
+    {
+      "element": "Sufragerie - Pereți",
+      "stare": "Vopsea veche, posibil necesită zugrăvire pentru un aspect proaspăt.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Sufragerie - Corp iluminat",
+      "stare": "Corp de iluminat industrial, nepotrivit pentru un spațiu rezidențial. Necesită înlocuire cu o soluție modernă.",
+      "cost_estimat_element_eur": 250
+    },
+    {
+      "element": "Sufragerie - Șemineu",
+      "stare": "Aspect învechit. Necesită renovare/modernizare.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Ferestre",
+      "stare": "Vechi, posibil cu pierderi de căldură. Recomandat înlocuirea cu termopane pentru eficiență energetică.",
+      "cost_estimat_element_eur": 4000
+    },
+    {
+      "element": "Uși interioare",
+      "stare": "Nu sunt vizibile în imagini, dar se recomandă verificarea stării și înlocuirea dacă este necesar.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Baie (nevizibilă în imagini)",
+      "stare": "Necesită o evaluare completă și renovare conform standardelor moderne (sanitare, gresie, faianță).",
+      "cost_estimat_element_eur": 5000
+    },
+    {
+      "element": "Instalație electrică generală",
+      "stare": "Necesită verificare și modernizare completă, inclusiv tablou electric și prize.",
+      "cost_estimat_element_eur": 2000
+    }
+  ],
+  "rezumat_analiza": "Proprietatea necesită renovări semnificative în bucătărie și baie, precum și lucrări de modernizare în sufragerie. Înlocuirea ferestrelor, modernizarea instalației electrice și finisajele interioare sunt esențiale. Costul total estimat este de 27750 EUR."
+}

@@ -1,0 +1,72 @@
+{
+  "cost_estimat_total_eur": 7750,
+  "potential_general": "Proprietatea are potențial bun pentru închiriere după o renovare completă. Modernizarea va atrage chiriași și va permite un preț de închiriere competitiv.",
+  "elemente_identificate": [
+    {
+      "element": "Baie - Gresie și faianță",
+      "stare": "Model vechi, probabil deteriorată pe alocuri, neigienică.",
+      "cost_estimat_element_eur": 1500
+    },
+    {
+      "element": "Baie - Obiecte sanitare",
+      "stare": "Uzate moral și fizic, necesită înlocuire completă (cadă, lavoar, WC).",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Baie - Instalații sanitare",
+      "stare": "Probabil vechi, necesită verificare și posibilă înlocuire parțială sau totală.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Baie - Tavan",
+      "stare": "Aspect nefinisat, necesită zugrăvire și posibil finisaje.",
+      "cost_estimat_element_eur": 200
+    },
+    {
+      "element": "Dormitoare - Pardoseală",
+      "stare": "Mocheta/linoleum vechi, necesită înlocuire cu parchet sau altă soluție modernă.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Dormitoare - Pereți",
+      "stare": "Vopsea veche, culori neatractive, necesită zugrăvire.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Dormitoare - Ferestre",
+      "stare": "Necesită verificare etanșeitate, posibilă înlocuire garnituri sau chiar a ferestrelor pentru o mai bună izolare termică.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Living - Pardoseală",
+      "stare": "Mocheta/linoleum vechi, necesită înlocuire cu parchet sau altă soluție modernă.",
+      "cost_estimat_element_eur": 750
+    },
+    {
+      "element": "Living - Pereți",
+      "stare": "Vopsea veche, culoare neatractivă, necesită zugrăvire.",
+      "cost_estimat_element_eur": 400
+    },
+    {
+      "element": "Bucătărie - Mobilier",
+      "stare": "Lipsă sau foarte vechi, necesită înlocuire completă.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Bucătărie - Electrocasnice",
+      "stare": "Lipsă sau foarte vechi, necesită dotare cu electrocasnice moderne (aragaz, frigider, etc.).",
+      "cost_estimat_element_eur": 600
+    },
+    {
+      "element": "Uși interioare",
+      "stare": "Aspect vechi, posibil deteriorate, necesită înlocuire sau recondiționare.",
+      "cost_estimat_element_eur": 300
+    },
+    {
+      "element": "Balcon - Finisaje",
+      "stare": "Aspect nefinisat, necesită gresie/faianță sau alt tip de finisaj.",
+      "cost_estimat_element_eur": 200
+    }
+  ],
+  "rezumat_analiza": "Proprietatea necesită o renovare completă pentru a atinge standardele moderne de închiriere. Toate băile și bucătăria trebuie modernizate, iar finisajele și instalațiile trebuie verificate și înlocuite unde este necesar.  Cu o investiție semnificativă, proprietatea poate deveni atractivă pentru chiriași."
+}

@@ -1,0 +1,52 @@
+{
+  "cost_estimat_total_eur": 7250,
+  "potential_general": "Bun, după renovare completă. Apartamentul pare a avea o compartimentare decentă, iar cu finisaje moderne poate deveni atractiv pentru închiriere.",
+  "elemente_identificate": [
+    {
+      "element": "Pardoseală toate camerele",
+      "stare": "Murdară, probabil necesita șapă autonivelantă înainte de montarea parchetului",
+      "cost_estimat_element_eur": 1500
+    },
+    {
+      "element": "Gresie și faianță baie",
+      "stare": "Model vechi, demodat. Necesită înlocuire completă.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Obiecte sanitare baie",
+      "stare": "Cada și chiuveta par uzate. Recomand înlocuirea cu un set modern.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Instalații sanitare baie",
+      "stare": "Țevile sunt vizibile și probabil vechi. Necesită înlocuire pentru a evita problemele pe viitor.",
+      "cost_estimat_element_eur": 750
+    },
+    {
+      "element": "Uși interioare",
+      "stare": "Aspect vechi, probabil necesită înlocuire.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Ferestre",
+      "stare": "Nu se vede clar starea lor, dar ar trebui verificate și eventual înlocuite cu termopane pentru eficiență energetică.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Instalație electrică",
+      "stare": "Se văd fire și doze neterminate. Necesită verificare și eventual înlocuire/modernizare completă.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Pereți",
+      "stare": "Necesită gletuire și vopsire/lavabilă.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Calorifere",
+      "stare": "Aspect vechi, ar trebui verificată funcționalitatea și eventual înlocuite.",
+      "cost_estimat_element_eur": 500
+    }
+  ],
+  "rezumat_analiza": "Proprietatea necesită o renovare completă pentru a atinge un standard modern. Costul total estimat este de 7250 EUR, incluzând manopera. Investiția este justificată, având în vedere potențialul de închiriere după renovare."
+}

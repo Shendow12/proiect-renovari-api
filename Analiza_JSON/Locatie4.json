@@ -1,0 +1,87 @@
+{
+  "cost_estimat_total_eur": 7250,
+  "potential_general": "Proprietatea are potențial bun pentru închiriere după renovare, datorită compartimentării și eventual a amplasării. Investiția în renovare va crește valoarea proprietății și va atrage chiriași.",
+  "elemente_identificate": [
+    {
+      "element": "Bucătărie - Gresie",
+      "stare": "Model vechi, demodat.",
+      "cost_estimat_element_eur": 700
+    },
+    {
+      "element": "Bucătărie - Pardoseală",
+      "stare": "Aspect uzat, probabil linoleum sau alt material ieftin.",
+      "cost_estimat_element_eur": 400
+    },
+    {
+      "element": "Bucătărie - Mobilier",
+      "stare": "Aspect vechi, demodat. Necesită înlocuire completă.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Bucătărie - Fereastră",
+      "stare": "Pare funcțională, dar ar putea necesita înlocuire pentru eficiență termică.",
+      "cost_estimat_element_eur": 250
+    },
+    {
+      "element": "Baie - Gresie și faianță",
+      "stare": "Model vechi, demodat. Rosturi murdare.",
+      "cost_estimat_element_eur": 600
+    },
+    {
+      "element": "Baie - Obiecte sanitare",
+      "stare": "Uzate, demodate. Recomandată înlocuirea.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Baie - Ușă",
+      "stare": "Aspect vechi, probabil din lemn. Necesită înlocuire sau recondiționare.",
+      "cost_estimat_element_eur": 150
+    },
+    {
+      "element": "Living - Pardoseală",
+      "stare": "Aspect uzat, probabil linoleum sau alt material ieftin.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Living - Pereți",
+      "stare": "Culoare demodată. Necesită zugrăvire.",
+      "cost_estimat_element_eur": 200
+    },
+    {
+      "element": "Living - Corpuri de iluminat",
+      "stare": "Demodate. Necesită înlocuire.",
+      "cost_estimat_element_eur": 100
+    },
+    {
+      "element": "Hol - Pardoseală",
+      "stare": "Mochetă/linoleum uzat. Necesită înlocuire.",
+      "cost_estimat_element_eur": 300
+    },
+    {
+      "element": "Hol - Uși",
+      "stare": "Vechi, demodate. Necesită înlocuire sau recondiționare.",
+      "cost_estimat_element_eur": 300
+    },
+    {
+      "element": "Hol - Pereți",
+      "stare": "Necesită zugrăvire.",
+      "cost_estimat_element_eur": 150
+    },
+    {
+      "element": "Balcon - Finisaje",
+      "stare": "În curs de renovare, dar necesită finalizare (pardoseală, zugrăvire).",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Instalație electrică",
+      "stare": "Vizibilă în unele zone. Necesită verificare și eventual înlocuire parțială/modernizare.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Instalație sanitară",
+      "stare": "Nu este vizibilă, dar se recomandă verificarea și modernizarea, mai ales în baie și bucătărie.",
+      "cost_estimat_element_eur": 500
+    }
+  ],
+  "rezumat_analiza": "Proprietatea necesită o renovare completă pentru a atinge standardele moderne de închiriere. Elementele principale care necesită atenție sunt: bucătăria și baia (gresie, faianță, obiecte sanitare, mobilier), pardoselile, ușile, pereții (zugrăvire), instalațiile electrice și sanitare. Costul total estimat al renovării este de aproximativ 7250 EURO."
+}

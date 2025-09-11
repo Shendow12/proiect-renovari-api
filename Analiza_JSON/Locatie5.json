@@ -1,0 +1,72 @@
+{
+  "cost_estimat_total_eur": 7250,
+  "potential_general": "Bun, după renovare completă.",
+  "elemente_identificate": [
+    {
+      "element": "Bucătărie - Faianță și gresie",
+      "stare": "Model vechi, uzate, neigienice.",
+      "cost_estimat_element_eur": 1000
+    },
+    {
+      "element": "Bucătărie - Instalații sanitare și electrice",
+      "stare": "Vizibile, probabil neconforme cu standardele actuale.",
+      "cost_estimat_element_eur": 750
+    },
+    {
+      "element": "Bucătărie - Fereastră",
+      "stare": "Posibil funcțională, dar merită evaluată pentru înlocuire cu termopan.",
+      "cost_estimat_element_eur": 250
+    },
+    {
+      "element": "Baie principală - Faianță, gresie, obiecte sanitare",
+      "stare": "Model vechi, uzate.",
+      "cost_estimat_element_eur": 1200
+    },
+    {
+      "element": "Baie principală - Instalații sanitare",
+      "stare": "Probabil necesită înlocuire completă.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Baie de serviciu - Toaletă și chiuvetă",
+      "stare": "Necesită înlocuire.",
+      "cost_estimat_element_eur": 300
+    },
+    {
+      "element": "Living - Parchet/Mocheta",
+      "stare": "Aspect uzat, necesită înlocuire cu parchet laminat sau altă soluție modernă.",
+      "cost_estimat_element_eur": 600
+    },
+    {
+      "element": "Living - Ușă balcon",
+      "stare": "Merită evaluată pentru înlocuire cu termopan.",
+      "cost_estimat_element_eur": 250
+    },
+    {
+      "element": "Balcon - Gresie",
+      "stare": "Aspect uzat, necesită înlocuire.",
+      "cost_estimat_element_eur": 200
+    },
+    {
+      "element": "Hol - Gresie",
+      "stare": "Model vechi, uzată.",
+      "cost_estimat_element_eur": 400
+    },
+    {
+      "element": "Uși interioare",
+      "stare": "Aspect vechi, probabil necesită înlocuire.",
+      "cost_estimat_element_eur": 500
+    },
+    {
+      "element": "Pereți interiori",
+      "stare": "Necesită zugrăvire/vopsire completă.",
+      "cost_estimat_element_eur": 700
+    },
+    {
+      "element": "Instalație electrică generală",
+      "stare": "Necesită verificare și eventual modernizare.",
+      "cost_estimat_element_eur": 500
+    }
+  ],
+  "rezumat_analiza": "Proprietatea necesită o renovare completă pentru a atinge un standard modern de închiriere.  Costurile estimate includ manopera și materialele. O inspecție la fața locului este necesară pentru o estimare precisă. Potențialul de închiriere este bun după renovare, având în vedere compartimentarea."
+}

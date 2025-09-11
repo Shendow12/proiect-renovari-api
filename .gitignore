@@ -1,0 +1,24 @@
+# Ignoră folderul cu datele de intrare (poze)
+# Acesta este folosit doar local de script1 și nu este necesar pe server
+/Locatii_de_Analizat/
+
+# Ignoră fișierele cache generate de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignoră folderele de mediu virtual Python
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Ignoră fișierele de configurare specifice editorului de cod (ex: VS Code)
+.vscode/
+.idea/
+
+# Ignoră fișierele de sistem (macOS, Windows)
+.DS_Store
+Thumbs.db
