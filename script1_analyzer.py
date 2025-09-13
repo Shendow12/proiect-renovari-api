@@ -48,7 +48,7 @@ def analyze_location(location_folder_path):
             print(f" AVERTISMENT: Nu am putut încărca imaginea {image_file}. Eroare: {e}")
 
     # Definirea modelului și a prompt-ului
-    model = genai.GenerativeModel('gemini-2.5-pro')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     
     prompt_text = """
     Analizează următoarele imagini ale unei proprietăți imobiliare din România. Acționează ca un expert în renovări.

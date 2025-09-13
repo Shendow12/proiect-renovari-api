@@ -69,7 +69,7 @@ async def select_matching_locations_with_ai(cerinta_user: str, context_data: str
     Locatie2,Locatie4,Locatie7
     """
     try:
-        model = genai.GenerativeModel('gemini-2.5-pro')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         response = await model.generate_content_async(prompt)
         return response.text.strip()
     except Exception as e:
