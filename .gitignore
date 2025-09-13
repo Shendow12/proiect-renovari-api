@@ -14,7 +14,7 @@ venv/
 env/
 .env/
 ENV/
-
+.env
 # Ignoră fișierele de configurare specifice editorului de cod (ex: VS Code)
 .vscode/
 .idea/
