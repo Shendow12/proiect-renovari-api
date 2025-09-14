@@ -2,7 +2,7 @@ import asyncio
 import json
 import os
 from typing import Dict, List
-
+from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
@@ -24,6 +24,13 @@ JSON_FOLDER = "Analiza_JSON"
 app = FastAPI(
     title="Consultant AI pentru Selecție Renovări",
     description="Trimite un buget și primește analizele JSON complete pentru toate proprietățile potrivite."
+)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # In production, replace with your specific frontend URL
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["*"],
 )
 
 # --- 2. MODELUL DE DATE PENTRU REQUEST ---
