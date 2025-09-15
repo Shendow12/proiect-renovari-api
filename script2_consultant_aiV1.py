@@ -8,7 +8,7 @@ from typing import Dict, List
 
 # --- 1. CONFIGURARE ---
 try:
-    genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+    genai.configure(api_key=os.environ["tudsecret"])
 except KeyError:
     raise RuntimeError("EROARE: Variabila de mediu 'GOOGLE_API_KEY' nu este setată.")
 

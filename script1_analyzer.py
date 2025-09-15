@@ -10,7 +10,7 @@ from tqdm import tqdm
 #    sau adaug-o direct aici (nerecomandat pentru siguranță):
 #    GOOGLE_API_KEY = "CHEIA_TA_API_AICI"
 try:
-    genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+    genai.configure(api_key=os.environ["tudsecret"])
 except KeyError:
     print("EROARE: Variabila de mediu GOOGLE_API_KEY nu este setată.")
     print("Te rog configurează cheia API conform instrucțiunilor din cod.")
