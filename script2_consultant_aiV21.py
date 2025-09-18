@@ -75,19 +75,79 @@ async def generate_renovation_blueprint_with_ai(property_data: Dict[str, Any], u
     property_context = json.dumps(property_data, indent=2, ensure_ascii=False)
     
     prompt = f"""
-    ACȚIONEAZĂ CA UN CONSULTANT SENIOR ÎN INVESTIȚII IMOBILIARE.
+ACȚIONEAZĂ CA UN CONSULTANT SENIOR ÎN INVESTIȚII IMOBILIARE.
 
-    CONTEXT:
-    - Cerința utilizatorului: "{user_request}" (Extrage de aici bugetul maxim disponibil).
-    - Datele complete ale proprietății de analizat: {property_context}
+CONTEXT:
+- Cerința utilizatorului: "{user_request}" (Extrage de aici bugetul maxim disponibil).
+- Datele complete ale proprietății de analizat: {property_context}
 
-    MISIUNEA TA:
-    Evaluează fezabilitatea renovării conform bugetului. Generează o analiză complexă în format JSON valid care include verdictul, planul de acțiune și analize suplimentare (financiare, de risc, planificare).
+MISIUNEA TA:
+Evaluează fezabilitatea renovării conform bugetului. Generează o analiză complexă în format JSON valid care include verdictul, planul de acțiune și analize suplimentare (financiare, de risc, planificare).
 
-    GHID DE RAȚIONAMENT:
-    1.  **Renovare Completă:** Dacă bugetul >= `cost_estimat_total_eur`. Toate elementele merg în `plan_de_actiune`.
-    2.  **Renovare Parțială:** Dacă bugetul < `cost_estimat_total_eur` DAR bugetul >= costul total al elementelor cu prioritate 'Critic'. Pune elementele care nu se încadrează în buget în `elemente_amanate`.
-    3.  **Proiect Nefezabil (Respins):** Dacă bugetul < costul total al elementelor cu prioritate 'Critic'. `plan_de_actiune` este gol.
+STRUCTURA JSON DE IEȘIRE OBLIGATORIE:
+Respectă *strict* următoarea structură arborescentă JSON:
+
+```json
+{{
+  "analiza_investitie": {{
+    "nume_locatie": "string",
+    "buget_client_eur": "number",
+    "cost_estimat_renovare_eur": "number",
+    "verdict": {{
+      "status": "string",
+      "rezumat": "string",
+      "recomandare_principala": "string"
+    }},
+    "plan_de_actiune": {{
+      "tip_plan": "string",
+      "elemente_de_executat": [
+        {{
+          "element": "string",
+          "stare": "string",
+          "cost_estimat_element_eur": "number",
+          "prioritate": "string (Critic/Major/Mediu)"
+        }}
+      ],
+      "elemente_amanate": [
+        {{
+          "element": "string",
+          "stare": "string",
+          "cost_estimat_element_eur": "number",
+          "prioritate": "string (Critic/Major/Mediu)"
+        }}
+      ]
+    }},
+    "analiza_financiara": {{
+      "cost_estimat_total_eur": "number",
+      "buget_disponibil_eur": "number",
+      "fond_de_rezerva_recomandat_procent": "number",
+      "fond_de_rezerva_recomandat_eur": "number",
+      "cost_total_proiectat_eur": "number",
+      "surplus_bugetar_estimat_eur": "number",
+      "observatii_financiare": "string"
+    }},
+    "analiza_de_risc": {{
+      "nivel_risc_general": "string (Scăzut/Mediu/Ridicat)",
+      "riscuri_identificate": [
+        {{
+          "risc": "string",
+          "descriere": "string",
+          "mitigare": "string"
+        }}
+      ]
+    }},
+    "planificare_si_etape": {{
+      "durata_estimata_saptamani": "string",
+      "etape_recomandate": [
+        {{
+          "etapa": "number",
+          "nume": "string",
+          "descriere": "string"
+        }}
+      ]
+    }}
+  }}
+}}
     """
     try:
         # **CORECTAT** Numele modelului la 'gemini-1.5-pro-latest'
