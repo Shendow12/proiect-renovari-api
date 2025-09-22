@@ -105,7 +105,7 @@ STRUCTURA JSON DE IEȘIRE OBLIGATORIE:
 }}
 """
     try:
-        model = genai.GenerativeModel('gemini-1.5-pro-latest')
+        model = genai.GenerativeModel('gemini-2.5-pro')
         response = await model.generate_content_async(
             prompt,
             generation_config=genai.types.GenerationConfig(
