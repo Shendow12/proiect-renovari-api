@@ -178,7 +178,7 @@ Respectă *strict* următoarea structură arborescentă JSON:
 }}
     """ 
     try:
-        model = genai.GenerativeModel('gemini-1.5-pro-latest')
+        model = genai.GenerativeModel('gemini-2.5-pro')
         response = await model.generate_content_async(prompt, generation_config=genai.types.GenerationConfig(response_mime_type="application/json"))
         return json.loads(response.text)
     except Exception as e:
