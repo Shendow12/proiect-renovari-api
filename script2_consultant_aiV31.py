@@ -3,6 +3,7 @@ import json
 import os
 import re
 from typing import Dict, List, Any, Optional
+from fastapi.middleware.cors import CORSMiddleware
 
 # NOU: Am adăugat Depends și Header pentru securitate
 from fastapi import FastAPI, HTTPException, Depends, Header
@@ -44,7 +45,13 @@ app = FastAPI(
     title="Consultant AI Flexibil pentru Planuri de Renovare",
     description="Trimite o cerință și, opțional, o arie geografică pentru a primi planuri strategice."
 )
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # --- 4. DEFINIREA STRUCTURILOR DE DATE ---
 class UserRequest(BaseModel):
     cerinta_user: str
